@@ -1,0 +1,34 @@
+html, body {
+	height: 100%;
+}
+
+input, textarea {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.btn {
+	background: #eee;
+	border: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	text-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	color: #444;
+	padding: 5px 9px;
+	filter: none;
+}
+
+.btn.btn-primary {
+  background: #368ee0;
+  color: #fff;
+  text-shadow: none;
+  filter: none;
+}
